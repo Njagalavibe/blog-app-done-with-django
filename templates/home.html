@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+<h4><a href="{% url 'home' %}"></a></h4>
+<h1 class="name">Message board homepage</h1>
+<div class="content">
+ {% for post in all_posts_list %}
+
+  <div class="shares">
+    <h3 class="post-entry"><a href="{% url 'Detail page' post.pk %}">{{ post.Title }}</a></h3>
+    <p>{{ post.text }}</p>
+  </div>
+  {% endfor %} {% endblock content %}
+</div>

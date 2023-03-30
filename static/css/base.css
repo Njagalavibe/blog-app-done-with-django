@@ -1,0 +1,74 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+/*.content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:wrap; 
+
+
+}*/
+
+
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.name{
+    text-align: center;
+}
+
+header h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.post-entry {
+    padding-left: 50px;
+    padding-bottom: 0px;
+   
+    
+}
+
+a   {
+    font-weight:bold ;
+    text-decoration: none;
+    color:blue;
+    
+}
+
+.post-entry h3 a,
+.post-entry h3 a:visited {
+    color: blue;
+   
+
+}
+
+ p {
+ 
+   
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.shares {
+    border: solid 2px black;
+    margin:50px;
+    border-radius: 38px;
+}
+
+a:hover {
+    color: rgb(15, 15, 15);
+}
